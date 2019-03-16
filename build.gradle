@@ -86,7 +86,7 @@ android {
 	sourceSets {
 		main {
 			manifest.srcFile 'AndroidManifest.xml'
-			java.srcDirs = ['src']
+			java.srcDirs = ['build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r', 'src']
 			scala.srcDirs = ['src']
 			resources.srcDirs = ['src']
 			aidl.srcDirs = ['src']
